@@ -38,7 +38,7 @@ console.log("Before: ", countries);
 
 // splice: remove specified number of elements starting from
 // specified starting position (not index!)
-// splic(pos, n)
+// splice(pos, n)
 // countries.splice(2,1)
 // splice can be used to add values starting from an index two
 // countries.splice(2,0, "Turkey", "China") // prepends new valeus to array starting from second position
