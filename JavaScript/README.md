@@ -125,3 +125,6 @@ output:
 ```
 ----
 
+
+## Hoisting
+Before any JavaScript is executed all function declarations are "hoisted" to the top of their current scope
