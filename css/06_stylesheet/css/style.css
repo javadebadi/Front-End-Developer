@@ -1,0 +1,15 @@
+.image {
+  border: 10px solid #888888;
+  box-shadow: 5px 10px 30px #442233;
+  width: 500px;
+  cursor: grab;
+  border-radius: 400px;
+  border-top-left-radius: 100px;
+}
+
+
+p {
+  color: #FFAA00;
+  font-size: 2em;
+  background-color: #5555AA;
+}
