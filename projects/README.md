@@ -7,4 +7,4 @@ I add simple projects, which are provided by Udacity Front-End-Developer Nanodeg
 This simple project is designed to practice HTML skills. The <a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58501f5b_mockup-to-article/mockup-to-article.zip">question</a> was a text with removed html tags and we were supposed that to use appropriate html tags to look like a give pdf mockup.            
 The project solution link is <a href="./01_html_mockup_to_article/index.html">here</a>.
 
-<p style="color:#FF8800;"><b>Skills: </b>HTML<p>
+ <span style="color:#FF8800;"><b>Skills: </b>HTML</span>
