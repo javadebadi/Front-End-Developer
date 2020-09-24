@@ -1,0 +1,42 @@
+/* add your CSS here */
+
+body {
+  border: 1px solid #AAAAAA;
+  padding: 10px;
+}
+
+#image {
+  padding-left: 0px;
+  margin: 0px;
+  width: 300px;
+  padding: 0px;
+}
+
+figure {
+  margin: 0px;
+  padding: 10px;
+}
+figcaption {
+  font-size: 9px;
+}
+
+.description {
+  border: 1px solid #CCCCCC;
+  padding-left: 10px;
+}
+
+.interesting-fact {
+  font-style: italic;
+}
+.capital {
+  text-transform: capitalize;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.items{
+  padding: 0px;
+  list-style-type: none;
+}
