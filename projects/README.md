@@ -1,8 +1,8 @@
 # Projects
 I add simple projects, which are provided by Udacity Front-End-Developer Nanodegree.
 
-<a href="#prject-1">Project 1: Mockup to Article</a>       
-<a href="#prject-2">Project 2: Animal Trading Card</a>
+<a href="#project-1">Project 1: Mockup to Article</a>       
+<a href="#project-2">Project 2: Animal Trading Card</a>
 
 <h2 id='project-1'>Project 1: Mockup to Article</h2>
 This simple project is designed to practice HTML skills. The <a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58501f5b_mockup-to-article/mockup-to-article.zip">question</a> was a text with removed html tags and we were supposed that to use appropriate html tags to look like a give pdf mockup.            
