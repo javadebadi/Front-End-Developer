@@ -1,0 +1,19 @@
+p {
+  border: 2px solid;
+  width: device;
+}
+
+img, object, embed, video {
+  width: 500px;
+  max-width: 100%; /* this will cause image to rescale accrding
+                      to size of the deivce or browser screen*/
+}
+
+/* buttons should have at least 48 css pixels width and height
+in order to be easily taped by finger
+The distnace between center of buttons
+is also shuld be about 40px at least*/
+button {
+  min-width: 48px;
+  min-height: 48px;
+}
