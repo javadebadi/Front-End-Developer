@@ -1,0 +1,13 @@
+install Atom as text editor with following packages:
+
+packges:
+  atom-live-server
+  emmet: essential for web developers
+  Pigments:  a plugin for Atom that displays color in code.
+
+
+themes:
+  monokai
+My themes:
+  UI: one dark
+  syntax: one dark
