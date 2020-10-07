@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+     <body dir="rtl">
+       <form action="http://localhost:8080/vote" method="post">
+         <label for="name">نام</label><br />
+         <input id="name" type="text" name="name" required><br />
+         <label for="email">ایمیل</label><br />
+         <input id="email" type="email" name="email" required><br/>
+
+         <span>از چه سرویس‌هایی استفاده کردید؟</span>
+         <label for="sauna">سونا</label>
+        <input id="sauna" type="checkbox" name="services" value="sauna">
+        <label for="jacuzzi">جکوزی</label>
+        <input id="jacuzzi" type="checkbox" name="services" value="jacuzzi">
+        <label for="pool">استخر</label>
+        <input id="pool" type="checkbox" name="services" value="pool">
+         <br /><br />
+
+         <span>آیا از کیفیت سرویس ارائه شده راضی بودید؟</span>
+         <input type="radio" id="yes" name="satisfaction" value="yes">
+         <label for="yes">بله</label>
+         <input type="radio" id="no" name="satisfaction" value="no">
+         <label for="no">خیر</label><br /><br />
+
+         <select id="branch" name="branch">
+             <option readonly selected>انتخاب شعبه</option>
+             <option value="1">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+         </select>
+         <br /><br />
+
+         <label for="score">امتیاز</label><br />
+         <input type="number" id="score" name="score" min="1" max="5" step="1" required>
+
+         <br /><br />
+         <input type="submit" value="ثبت">
+       </form>
+     </body>
+</html>

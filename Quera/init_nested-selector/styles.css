@@ -1,0 +1,7 @@
+div#container p {
+  color:indigo !important;
+}
+
+body > p {
+    color:red !important;
+}
