@@ -1,0 +1,28 @@
+.text-code-terminal {
+  font-family: Ubuntu Mono, Consolas,Lucida Console, Courier New, Monaco, Andale Mono;
+}
+.text-code {
+  font-family: DejaVu Sans Mono, Inconsolata, Monaco, Consolas, Andale Mono, Courier New, Lucida Console, Consolas;
+}
+.text-code-python{
+  font-family: Inconsolata, Monaco, Consolas, Lucida Console, DejaVu Sans Mono, Courier New;
+}
+.block-code {
+  cursor: copy;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+  padding-top:0.5em;
+  border-radius:0.5em;
+  line-height:2em;
+}
+.block-code-terminal {
+  background-color: rgba(25,25,25,0.9);
+  line-height:2em;
+  color:#FFFFFF;
+}
+.block-code-python {
+  background-color: #E0E0E0;
+  line-height:2em;
+  color:black;
+}
