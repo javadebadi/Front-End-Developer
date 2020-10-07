@@ -1,0 +1,19 @@
+javascript rendering blocking
+
+variable
+function, anonymous function
+hoisting
+global scope, local scope, var, let, const
+To avoid global scope, always declare your variables with `var`
+objects
+objects constructor
+
+
+DOM
+getElementsByClassName() does not return array,
+but it returns html collection which is array like.
+
+
+document.getElementsByTagName('tag-name');
+document.getElementsByClassName("class-name");
+document.getElementById("id-name");
