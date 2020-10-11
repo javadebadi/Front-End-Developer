@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style media="screen">
+      img {
+        width: inherit;
+        height: 200px;
+        padding: 2px;
+      }
+    </style>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <title>Navigations in Bootstrap</title>
+  </head>
+  <body>
+    <h1>Navigations in Bootstrap</h1>
+    <h2>Tow ways to create navigations</h2>
+    <h3>One way to create navigations</h3>
+    <ul class="nav">
+      <li class="nav-item"><a href="#" class="nav-link">Profile</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Dashboard</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Settings</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Sign out</a></li>
+    </ul>
+
+    <h3>Other way to create navigations</h3>
+    <nav class="nav">
+      <a class="nav-item nav-link" href="#">Profile</a></li>
+      <a class="nav-item nav-link" href="#">Dashboard</a></li>
+      <a class="nav-item nav-link" href="#">Settings</a></li>
+      <a class="nav-item nav-link" href="#">Sign out</a></li>
+    </nav>
+
+    <h2>Styling navigations</h2>
+    <h3>Tab</h3>
+    <nav class="nav nav-tabs">
+      <a class="nav-item nav-link active" href="#">Profile</a></li>
+      <a class="nav-item nav-link" href="#">Dashboard</a></li>
+      <a class="nav-item nav-link" href="#">Settings</a></li>
+      <a class="nav-item nav-link disabled" href="#">Sign out</a></li>
+    </nav>
+    <h3>Pills</h3>
+    <nav class="nav nav-pills">
+      <a class="nav-item nav-link active" href="#">Profile</a></li>
+      <a class="nav-item nav-link" href="#">Dashboard</a></li>
+      <a class="nav-item nav-link" href="#">Settings</a></li>
+      <a class="nav-item nav-link disabled" href="#">Sign out</a></li>
+    </nav>
+    <h3>Justify content center</h3>
+    <nav class="nav nav-pills justify-content-center">
+      <a class="nav-item nav-link active" href="#">Profile</a></li>
+      <a class="nav-item nav-link" href="#">Dashboard</a></li>
+      <a class="nav-item nav-link" href="#">Settings</a></li>
+      <a class="nav-item nav-link disabled" href="#">Sign out</a></li>
+    </nav>
+    <h3>Justify content end</h3>
+    <nav class="nav nav-pills justify-content-end">
+      <a class="nav-item nav-link active" href="#">Profile</a></li>
+      <a class="nav-item nav-link" href="#">Dashboard</a></li>
+      <a class="nav-item nav-link" href="#">Settings</a></li>
+      <a class="nav-item nav-link disabled" href="#">Sign out</a></li>
+    </nav>
+    <h3>Entire width and same width for all navs</h3>
+    <nav class="nav nav-pills nav-justified">
+      <a class="nav-item nav-link active" href="#">Profile</a></li>
+      <a class="nav-item nav-link" href="#">Dashboard</a></li>
+      <a class="nav-item nav-link" href="#">Settings</a></li>
+      <a class="nav-item nav-link disabled" href="#">Sign out</a></li>
+    </nav>
+    <h3>Entire width but not same width for all navs</h3>
+    <nav class="nav nav-pills nav-fill">
+      <a class="nav-item nav-link active" href="#">Profile</a></li>
+      <a class="nav-item nav-link" href="#">Dashboard</a></li>
+      <a class="nav-item nav-link" href="#">Settings</a></li>
+      <a class="nav-item nav-link disabled" href="#">Sign out</a></li>
+    </nav>
+    <h3>Flex columns: navs are columns in small devices</h3>
+    <nav class="nav nav-pills flex-column flex-sm-row">
+      <a class="nav-item nav-link active" href="#">Profile</a></li>
+      <a class="nav-item nav-link" href="#">Dashboard</a></li>
+      <a class="nav-item nav-link" href="#">Settings</a></li>
+      <a class="nav-item nav-link disabled" href="#">Sign out</a></li>
+    </nav>
+
+  </body>
+</html>
