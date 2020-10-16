@@ -129,6 +129,15 @@ output:
 ## Hoisting
 Before any JavaScript is executed all function declarations are "hoisted" to the top of their current scope
 
+## BOM
+**BOM**: Browser Object Model     
+`window` is the top level object in BOM
+
+- To open new tab in browser: `window.open()`
+- To find with of browser window: `window.innerwidth`
+
+The html which browser shows is an object inside `window.object`; it is `window.document`. The document in turn has its own object model called **DOM** (Document Object Model).
+Each html start and end tag denotes a **Node**.
 
 ## DOM
 
